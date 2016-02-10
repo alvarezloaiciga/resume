@@ -25,7 +25,7 @@
 /* $BREADCRUMBS SECTION                      */
 /* ========================================= */
 
-.breadcrumb-container 
+.breadcrumb-container
 {
 	border-bottom: 1px solid;
 	padding: 20px 0;
@@ -52,7 +52,7 @@
 	height: 5px;
 	position: absolute;
 	top: -2px;
-	background: url(../media/images/separator.png) repeat-x;
+	background: url(../images/separator.png) repeat-x;
 	opacity: 0.15;
 }
 
@@ -96,21 +96,21 @@
 	margin-top: 30px;
 }
 
-.comments-list 
+.comments-list
 {
 	padding-bottom: 20px;
 	overflow: hidden;
 }
 
-.comments-list .comments-list 
-{ 
-	padding-left: 90px; 
+.comments-list .comments-list
+{
+	padding-left: 90px;
 	overflow: hidden;
 	border-top-width: 1px;
 	border-style: solid;
 }
 
-	.comment 
+	.comment
 	{
 		position: relative;
 		padding-top: 40px;
@@ -122,7 +122,7 @@
 	.comments-wrapper > .comments-list  > .comment:first-child { border-top: 0 }
 	.comments-list li + .comments-list .comment:first-child { border-top: 0 }
 
-		.comment .user 
+		.comment .user
 		{
 			width: 60px;
 			height: 60px;
@@ -138,14 +138,14 @@
 				height: inherit;
 			}
 
-		.comment .message 
+		.comment .message
 		{
 			overflow: hidden;
 			position: relative;
 			padding-left: 30px;
 		}
 
-			.comment-reply-link 
+			.comment-reply-link
 			{
 				position: absolute;
 				right: 0;
@@ -157,9 +157,9 @@
 					margin-right: 10px;
 				}
 
-			.comment .info 
+			.comment .info
 			{
-				display: inline-block;				
+				display: inline-block;
 			}
 
 				.comment .info a
@@ -167,17 +167,17 @@
 					display: block;
 				}
 
-				.comment-username 
+				.comment-username
 				{
 					margin-bottom: 5px;
 				}
 
-				.comment-date 
+				.comment-date
 				{
-					
+
 				}
 
-			.comment p 
+			.comment p
 			{
 				margin-top: 20px;
 			}
@@ -189,11 +189,11 @@
 
 /* @SIDEBAR GENERALS */
 
-.widget 
-{ 
+.widget
+{
 	padding-top: 40px;
 	padding-bottom: 40px;
-	position: relative; 
+	position: relative;
 }
 
 .widget:first-of-type { margin-top: -40px; }
@@ -234,7 +234,7 @@
 	line-height: 1.618em;
 }
 
-.tweets-list li p 
+.tweets-list li p
 {
 	padding-left: 20px;
 	display: block;
